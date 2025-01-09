@@ -34,6 +34,14 @@ To run the API tests, use the following command:
 npx playwright test tests/coindesk.spec.ts
 ```
 
+## Reports
+
+To generate a test report, use the following command:
+
+```bash
+npx playwright show-report
+```
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
